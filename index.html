@@ -1,0 +1,102 @@
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+    <script src="https://kit.fontawesome.com/0c6829628d.js" crossorigin="anonymous"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+	<nav id="navbar-example" class="navbar navbar-expand-lg px-5 shadow py-5  d-flex"  data-aos="zoom-in" data-aos-duration="2500">
+            <div class="container-fluid">
+				<i class="fa-solid fa-cloud  fs-1 p-2 text-primary"></i>
+				<div class="">
+              <a class="navbar-brand fw-bolder fs-3  text-light" href="#">Weather</a>
+              <br>
+			  <small class="site-description text-light">tagline goes here</small>
+			  </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 px-2">
+                  <li class="nav-item">
+                    <a class="nav-link active px-4 " aria-current="page" href="#Home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-4 " href="#about">News</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-4" href="#services">Live Cameras</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-4" href="#works">Photos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-4 " href="#contact">Contact</a>
+                  </li>
+                </ul>
+               
+              </div>
+            </div>
+          </nav>
+         
+<div id="sec1">
+      <div class="pt-5" >
+        <div class="container w-75 pt-5" data-aos="flip-up" data-aos-duration="2500">
+          <form class="find-location position-relative">
+            <input type="text" class="form-control" id="search" placeholder="Find your location..." >
+            <input type="button" value="search"  class="searchh p-auto" onclick="defaultcity()"/>
+          </form>
+        </div>
+      </div>  
+      
+      <section class="mt-5 pt-5 route">
+        <div class="container w-75" >
+          <div class="row gx-0" id="row" >
+            <div class="col-lg-6 col-sm-6 rounded">
+                    
+              <div class="row pb-5 mt-5">
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+
+
+
+      <footer class="site-footer">
+        <div class="container" data-aos="zoom-in" data-aos-duration="2500">
+          <div class="row">
+            <div class="col-md-8">
+              <form action="#" class="subscribe-form">
+                <input type="text" placeholder="Enter your email to subscribe...">
+                <input type="submit" value="Subscribe">
+              </form>
+            </div>
+            <div class="col-md-3 col-md-offset-1">
+              <div class="social-links">
+                <a href="#" ><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+                <a href="#"><i class="fa fa-pinterest"></i></a>
+              </div>
+            </div>
+          </div>
+      
+          <p class="colophon text-light">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+      </footer>   
+</div>
+
+    <script src="index.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+</html>
